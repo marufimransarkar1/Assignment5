@@ -16,10 +16,10 @@ function toggleSeat(seatId) {
     var selectedSeatCount = parseInt(selectedSeatElement.textContent);
     if (selectedSeatCount === 4) {
         var hideinputfild = document.getElementById("couponform");
-        hideinputfild.style.visibility = "visible";
+        hideinputfild.style.display = "flex";
     } else {
         var hideinputfild = document.getElementById("couponform");
-        hideinputfild.style.visibility = "hidden";
+        hideinputfild.style.display = "none";
     }
 }
 
